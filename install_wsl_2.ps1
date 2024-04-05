@@ -7,5 +7,5 @@ Invoke-WebRequest "https://wslstorestorage.blob.core.windows.net/wslblob/wsl_upd
 
 cmd /c "msiexec.exe /i $outputFile"
 # wslのデフォルトをwsl2に指定
-cmd /c "wsl --set-default-version 2"
+# cmd /c "wsl --set-default-version 2"
 cmd /c "wsl --install -d Ubuntu-22.04"
